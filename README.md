@@ -6,7 +6,7 @@ Vercel - https://snakegame-vert-two.vercel.app/
 Figma - https://www.figma.com/board/kjwvPEgGNX4gV5jDYM3nr5/Snake?t=BVitoCfrHgqw1J09-0
 
 ### Day One - 
-- Have been working on setting up the project, such as setting up the next.js. 
+- Have been working on setting up the project, such as setting up the next.js, adding to the README, and cloning to my local. 
 - I also made a favicon that can be viewed in Vercel or Figma.
 - Looked into inspiration and ideas for setting up my app.
 
