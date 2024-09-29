@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5c4f6;
+}
+
+.homeHeader {
+  text-align: center;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.home:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.about:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #faf8c4;
+  color: #000;
+  text-align: center;
+}
