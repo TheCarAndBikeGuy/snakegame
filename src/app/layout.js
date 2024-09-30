@@ -60,9 +60,9 @@ export default function RootLayout({ children }) {
           <footer className="footer">
             <Footer />
             <SignedOut>
-              <SignInButton title="Sign In" />
+              <SignInButton title="Sign In" className="signInBtn"/>
             </SignedOut>
-            <UserButton />
+            <UserButton className="signInBtn"/>
           </footer>
         </body>
       </html>

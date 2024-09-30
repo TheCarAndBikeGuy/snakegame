@@ -1,3 +1,4 @@
+/* Page Layout */
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +8,14 @@ body {
   background-color: #f5c4f6;
 }
 
+/* Main Home Title Look */
+
 .homeHeader {
   text-align: center;
   font-size: 50px;
 }
+
+/* Nav Bar e.g home, about... */
 
 nav {
   display: flex;
@@ -53,6 +58,8 @@ nav {
   text-decoration: none;
 }
 
+/* Logo Image Of The Snake */
+
 .mainImage {
   border-radius: 150px;
   align-items: center;
@@ -62,6 +69,28 @@ nav {
   margin-right: auto;
 }
 
+/* Sign In Button */
+
+.signInBtn {
+  border: 6px black solid;
+  background-color: #000;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.signInBtn:hover {
+  border: 6px #fff solid;
+  transition: 0.5s;
+  background-color: #fff;
+  color: black;
+  align-items: center;
+}
+
+.signUp {
+  align-items: center;
+  background-color: aqua;
+}
 
 /* Footer Of The Page */
 
@@ -70,7 +99,7 @@ nav {
   left: 0;
   bottom: 0px;
   width: 100%;
-  height: 80px;
+  height: 65px;
   background-color: #faf8c4;
   color: #000;
   text-align: center;
