@@ -14,3 +14,6 @@ Figma - https://www.figma.com/board/kjwvPEgGNX4gV5jDYM3nr5/Snake?t=BVitoCfrHgqw1
 - I have been adding a wireframe, user stories, MVP, and layout to Figma to show how I want it to work.
 - I also created a logo.
 - I set up the clerk authentication.
+
+### Day Three -
+- Today I sorted the CSS and added in the logo. However I may change my mind about the logo later on. 

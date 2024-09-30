@@ -19,19 +19,51 @@ nav {
   justify-content: center;
   gap: 20px;
   margin-top: 10px;
-  color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
-.home:hover {
-  text-decoration: underline;
-  transition: 1s;
+.home {
+  color: #000;
+  text-decoration: none;
 }
 
-.about:hover {
-  text-decoration: underline;
-  transition: 1s;
+.about {
+  color: #000;
+  text-decoration: none;
 }
+
+.User {
+  color: #000;
+  text-decoration: none;
+}
+
+.custom {
+  color: #000;
+  text-decoration: none;
+}
+
+.play {
+  color: #000;
+  text-decoration: none;
+}
+
+.lb {
+  color: #000;
+  text-decoration: none;
+}
+
+.mainImage {
+  border-radius: 150px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Footer Of The Page */
 
 .footer {
   position: fixed;
