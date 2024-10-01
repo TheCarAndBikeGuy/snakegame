@@ -13,6 +13,8 @@ export default function Home() {
         height={250}
         alt="This is the Logo"
       />
+      <br />
+      <p>Please Sign In Below! :)</p>
     </div>
   );
 }

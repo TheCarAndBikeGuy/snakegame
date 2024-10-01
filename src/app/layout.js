@@ -6,6 +6,7 @@ import {
   SignedIn,
   SignedOut,
   UserButton,
+  SignIn
 } from "@clerk/nextjs";
 import Link from "next/link";
 import Footer from "./components/footer";
@@ -28,9 +29,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider >
       <html lang="en">
-        <body>
+        <body className={`${geistMono.variable} ${geistSans.variable} antialiased flex flex-col items-center w-screen h-screen`}>
           <header>
             <h1 className="homeHeader">Snake</h1>
           </header>
@@ -59,10 +60,10 @@ export default function RootLayout({ children }) {
           {children}
           <footer className="footer">
             <Footer />
-            <SignedOut>
-              <SignInButton title="Sign In" className="signInBtn"/>
-            </SignedOut>
-            <UserButton className="signInBtn"/>
+            <SignedOut >
+              <SignInButton title="Sign In" className="signIn"/>
+            </SignedOut >
+            <UserButton className="signIn"/>
           </footer>
         </body>
       </html>

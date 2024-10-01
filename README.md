@@ -18,3 +18,8 @@ Figma - https://www.figma.com/board/kjwvPEgGNX4gV5jDYM3nr5/Snake?t=BVitoCfrHgqw1
 ### Day Three -
 - Today I sorted the CSS and added in the logo. However I may change my mind about the logo later on. 
 - Also added CSS on the Sign In button and added a accordion to the about page.
+
+
+### Day Four - 
+- Added the folders so that I can sort them out and know where everything is. 
+- Added more CSS, to the sign in page as it was on the edge of the screen.

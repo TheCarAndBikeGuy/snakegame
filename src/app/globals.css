@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Page Layout */
 * {
   margin: 0;
@@ -69,18 +73,30 @@ nav {
   margin-right: auto;
 }
 
-/* Sign In Button */
-
-.signInBtn {
-  border: 6px black solid;
-  background-color: #000;
-  border-radius: 20px;
-  color: white;
-  cursor: pointer;
+p {
+  text-align: center;
+  font-weight: bold;
 }
 
-.signInBtn:hover {
-  border: 6px #fff solid;
+/* Sign In Button */
+
+.signIn {
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -20%);
+}
+
+
+.signIn:hover {
+  border: 5px #fff solid;
   transition: 0.5s;
   background-color: #fff;
   color: black;
@@ -91,13 +107,12 @@ nav {
   align-items: center;
   background-color: aqua;
 }
-
 /* Footer Of The Page */
 
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
-  bottom: 0px;
+  bottom: -300px;
   width: 100%;
   height: 65px;
   background-color: #faf8c4;
